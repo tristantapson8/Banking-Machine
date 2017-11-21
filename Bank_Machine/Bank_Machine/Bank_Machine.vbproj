@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{78A06934-428F-431A-9C39-13B12D897DC1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Bank_Machine.My.MyApplication</StartupObject>
+    <RootNamespace>Bank_Machine</RootNamespace>
+    <AssemblyName>Bank_Machine</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Bank_Machine.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Bank_Machine.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="cashMain.Designer.vb">
+      <DependentUpon>cashMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cashMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cashNoReceipt.Designer.vb">
+      <DependentUpon>cashNoReceipt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cashNoReceipt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cashReceipt.Designer.vb">
+      <DependentUpon>cashReceipt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cashReceipt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="deposit.Designer.vb">
+      <DependentUpon>deposit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="deposit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="depositAmount.Designer.vb">
+      <DependentUpon>depositAmount.vb</DependentUpon>
+    </Compile>
+    <Compile Include="depositAmount.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="enterAccountNum.Designer.vb">
+      <DependentUpon>enterAccountNum.vb</DependentUpon>
+    </Compile>
+    <Compile Include="enterAccountNum.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="enterPin.Designer.vb">
+      <DependentUpon>enterPin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="enterPin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="invalidTransfer.Designer.vb">
+      <DependentUpon>invalidTransfer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="invalidTransfer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="invalidWithdrawal.Designer.vb">
+      <DependentUpon>invalidWithdrawal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="invalidWithdrawal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainMenu.Designer.vb">
+      <DependentUpon>mainMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="mainMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="receipt.Designer.vb">
+      <DependentUpon>receipt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="receipt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="startScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="startScreen.Designer.vb">
+      <DependentUpon>startScreen.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="transfer1.Designer.vb">
+      <DependentUpon>transfer1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="transfer1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="transfer2.Designer.vb">
+      <DependentUpon>transfer2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="transfer2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="transferAmount.Designer.vb">
+      <DependentUpon>transferAmount.vb</DependentUpon>
+    </Compile>
+    <Compile Include="transferAmount.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="validDeposit.Designer.vb">
+      <DependentUpon>validDeposit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="validDeposit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="validTransfer.Designer.vb">
+      <DependentUpon>validTransfer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="validTransfer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="validWithdrawal.Designer.vb">
+      <DependentUpon>validWithdrawal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="validWithdrawal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="withdraw.Designer.vb">
+      <DependentUpon>withdraw.vb</DependentUpon>
+    </Compile>
+    <Compile Include="withdraw.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="withdrawAmount.Designer.vb">
+      <DependentUpon>withdrawAmount.vb</DependentUpon>
+    </Compile>
+    <Compile Include="withdrawAmount.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="cashMain.resx">
+      <DependentUpon>cashMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cashNoReceipt.resx">
+      <DependentUpon>cashNoReceipt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cashReceipt.resx">
+      <DependentUpon>cashReceipt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="deposit.resx">
+      <DependentUpon>deposit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="depositAmount.resx">
+      <DependentUpon>depositAmount.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="enterAccountNum.resx">
+      <DependentUpon>enterAccountNum.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="enterPin.resx">
+      <DependentUpon>enterPin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="invalidWithdrawal.resx">
+      <DependentUpon>invalidWithdrawal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainMenu.resx">
+      <DependentUpon>mainMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="receipt.resx">
+      <DependentUpon>receipt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="startScreen.resx">
+      <DependentUpon>startScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="transfer1.resx">
+      <DependentUpon>transfer1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="transfer2.resx">
+      <DependentUpon>transfer2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="transferAmount.resx">
+      <DependentUpon>transferAmount.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="validDeposit.resx">
+      <DependentUpon>validDeposit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="validWithdrawal.resx">
+      <DependentUpon>validWithdrawal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="withdraw.resx">
+      <DependentUpon>withdraw.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="withdrawAmount.resx">
+      <DependentUpon>withdrawAmount.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
