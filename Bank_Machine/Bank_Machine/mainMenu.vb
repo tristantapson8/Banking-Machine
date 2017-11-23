@@ -18,4 +18,9 @@
         transfer1.Show()
         Me.Hide()
     End Sub
+
+    Private Sub Button17_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button17.Click
+        quickWithdraw.Show()
+        Me.Hide()
+    End Sub
 End Class

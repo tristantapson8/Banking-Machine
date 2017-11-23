@@ -9,4 +9,8 @@
         receipt.Show()
         Me.Hide()
     End Sub
+
+    Private Sub Button10_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button10.Click
+        Me.Hide()
+    End Sub
 End Class

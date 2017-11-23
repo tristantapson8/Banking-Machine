@@ -132,6 +132,12 @@
     <Compile Include="mainMenu.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="quickWithdraw.Designer.vb">
+      <DependentUpon>quickWithdraw.vb</DependentUpon>
+    </Compile>
+    <Compile Include="quickWithdraw.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="receipt.Designer.vb">
       <DependentUpon>receipt.vb</DependentUpon>
     </Compile>
@@ -236,6 +242,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="mainMenu.resx">
       <DependentUpon>mainMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="quickWithdraw.resx">
+      <DependentUpon>quickWithdraw.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="receipt.resx">
       <DependentUpon>receipt.vb</DependentUpon>
