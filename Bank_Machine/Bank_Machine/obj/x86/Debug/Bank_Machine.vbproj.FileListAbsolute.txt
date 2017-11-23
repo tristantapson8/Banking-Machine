@@ -61,3 +61,5 @@ C:\Users\Ren-David\Repos\Banking-Machine\Bank_Machine\Bank_Machine\obj\x86\Debug
 C:\Users\Ren-David\Repos\Banking-Machine\Bank_Machine\Bank_Machine\obj\x86\Debug\Bank_Machine.xml
 C:\Users\Ren-David\Repos\Banking-Machine\Bank_Machine\Bank_Machine\obj\x86\Debug\Bank_Machine.pdb
 C:\Users\Ren-David\Repos\Banking-Machine\Bank_Machine\Bank_Machine\obj\x86\Debug\Bank_Machine.quickWithdraw.resources
+C:\Users\Ren-David\Repos\Banking-Machine\Bank_Machine\Bank_Machine\obj\x86\Debug\Bank_Machine.invalidTransfer.resources
+C:\Users\Ren-David\Repos\Banking-Machine\Bank_Machine\Bank_Machine\obj\x86\Debug\Bank_Machine.validTransfer.resources

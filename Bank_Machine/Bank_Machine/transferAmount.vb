@@ -59,6 +59,7 @@
                 Me.Hide()
             ElseIf mainMenu.Chequeing_Amount - tA < 0 Then
                 invalidTransfer.Show()
+                Me.Hide()
             End If
         End If
 
@@ -73,6 +74,7 @@
                 Me.Hide()
             ElseIf mainMenu.Chequeing_Amount - tA < 0 Then
                 invalidTransfer.Show()
+                Me.Hide()
             End If
         End If
 
@@ -87,6 +89,7 @@
                 Me.Hide()
             ElseIf mainMenu.Chequeing_Amount - tA < 0 Then
                 invalidTransfer.Show()
+                Me.Hide()
             End If
         End If
 
@@ -103,6 +106,7 @@
                 Me.Hide()
             ElseIf mainMenu.Saving_Amount - tA < 0 Then
                 invalidTransfer.Show()
+                Me.Hide()
             End If
         End If
 
@@ -116,6 +120,7 @@
                 Me.Hide()
             ElseIf mainMenu.Saving_Amount - tA < 0 Then
                 invalidTransfer.Show()
+                Me.Hide()
             End If
         End If
 
@@ -130,6 +135,7 @@
                 Me.Hide()
             ElseIf mainMenu.Saving_Amount - tA < 0 Then
                 invalidTransfer.Show()
+                Me.Hide()
             End If
         End If
 
@@ -146,6 +152,7 @@
                 Me.Hide()
             ElseIf mainMenu.Credit_Amount - tA < 0 Then
                 invalidTransfer.Show()
+                Me.Hide()
             End If
         End If
 
@@ -160,6 +167,7 @@
                 Me.Hide()
             ElseIf mainMenu.Credit_Amount - tA < 0 Then
                 invalidTransfer.Show()
+                Me.Hide()
             End If
         End If
 
@@ -173,6 +181,7 @@
                 Me.Hide()
             ElseIf mainMenu.Credit_Amount - tA < 0 Then
                 invalidTransfer.Show()
+                Me.Hide()
             End If
         End If
 
@@ -188,5 +197,4 @@
     Private Sub No_Button_Click(sender As System.Object, e As System.EventArgs) Handles No_Button.Click
         AMMOUNT_box.Text = ""
     End Sub
-   
 End Class

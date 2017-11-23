@@ -237,6 +237,9 @@
     <EmbeddedResource Include="enterPin.resx">
       <DependentUpon>enterPin.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="invalidTransfer.resx">
+      <DependentUpon>invalidTransfer.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="invalidWithdrawal.resx">
       <DependentUpon>invalidWithdrawal.vb</DependentUpon>
     </EmbeddedResource>
@@ -269,6 +272,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="validDeposit.resx">
       <DependentUpon>validDeposit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="validTransfer.resx">
+      <DependentUpon>validTransfer.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="validWithdrawal.resx">
       <DependentUpon>validWithdrawal.vb</DependentUpon>

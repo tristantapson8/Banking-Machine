@@ -192,6 +192,7 @@ Partial Class transferAmount
         '
         Me.AMMOUNT_box.Location = New System.Drawing.Point(121, 111)
         Me.AMMOUNT_box.Name = "AMMOUNT_box"
+        Me.AMMOUNT_box.ReadOnly = True
         Me.AMMOUNT_box.Size = New System.Drawing.Size(90, 22)
         Me.AMMOUNT_box.TabIndex = 60
         Me.AMMOUNT_box.Text = ""
@@ -260,6 +261,7 @@ Partial Class transferAmount
         '
         Me.Account_type1.Location = New System.Drawing.Point(121, 155)
         Me.Account_type1.Name = "Account_type1"
+        Me.Account_type1.ReadOnly = True
         Me.Account_type1.Size = New System.Drawing.Size(90, 22)
         Me.Account_type1.TabIndex = 66
         Me.Account_type1.Text = ""
@@ -268,6 +270,7 @@ Partial Class transferAmount
         '
         Me.Account_type2.Location = New System.Drawing.Point(121, 199)
         Me.Account_type2.Name = "Account_type2"
+        Me.Account_type2.ReadOnly = True
         Me.Account_type2.Size = New System.Drawing.Size(90, 22)
         Me.Account_type2.TabIndex = 67
         Me.Account_type2.Text = ""
