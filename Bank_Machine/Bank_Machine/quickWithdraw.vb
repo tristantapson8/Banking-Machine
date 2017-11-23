@@ -12,43 +12,43 @@
 
     End Sub
 
-    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         'AMMOUNT_box.Text = AMMOUNT_box.Text & 1
     End Sub
 
-    Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
+    Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
 
     End Sub
 
-    Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button3.Click
+    Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
 
     End Sub
 
-    Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button4.Click
+    Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
 
     End Sub
 
-    Private Sub Button5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button5.Click
+    Private Sub Button5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
 
     End Sub
 
-    Private Sub Button6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button6.Click
+    Private Sub Button6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
 
     End Sub
 
-    Private Sub Button7_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button7.Click
+    Private Sub Button7_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
 
     End Sub
 
-    Private Sub Button8_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button8.Click
+    Private Sub Button8_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
 
     End Sub
 
-    Private Sub Button9_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button9.Click
+    Private Sub Button9_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
 
     End Sub
 
-    Private Sub Button0_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button10.Click
+    Private Sub Button0_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
 
     End Sub
 

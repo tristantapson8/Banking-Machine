@@ -36,17 +36,25 @@
         PIN_box.Text = PIN_box.Text & 9
     End Sub
 
+    Private Sub Button0_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button0.Click
+        PIN_box.Text = PIN_box.Text & 0
+    End Sub
+
+    Private Sub ButtonDec_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonDec.Click
+        PIN_box.Text = PIN_box.Text & "."
+    End Sub
+
     Private Sub PIN_box_TextChanged(sender As System.Object, e As System.EventArgs)
 
     End Sub
 
     'Clears the PIN entry field
-    Private Sub No_Button_Click(sender As System.Object, e As System.EventArgs) Handles No_Button.Click
+    Private Sub No_Button_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles No_Button.Click
         PIN_box.Clear()
     End Sub
 
     'Goes to main menu if entered pin is correct
-    Private Sub Go_Button_Click(sender As System.Object, e As System.EventArgs) Handles Go_Button.Click
+    Private Sub Go_Button_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Go_Button.Click
         If InStr(1, LCase(PIN_box.Text), "1234") <> 0 Then
             mainMenu.Show()
             Me.Hide()
@@ -55,7 +63,12 @@
         End If
     End Sub
 
-    Private Sub Button11_Click(sender As System.Object, e As System.EventArgs) Handles Button11.Click
-
+    Private Sub Back_Button_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Back_Button.Click
+        If PIN_box.Text < " " Then
+            PIN_box.Text = Mid(PIN_box.Text, 1, Len(PIN_box.Text) - 1 + 1)
+        Else
+            PIN_box.Text = Mid(PIN_box.Text, 1, Len(PIN_box.Text) - 1)
+        End If
     End Sub
+
 End Class

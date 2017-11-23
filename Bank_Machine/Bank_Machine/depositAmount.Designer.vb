@@ -41,8 +41,11 @@ Partial Class depositAmount
         Me.Button7 = New System.Windows.Forms.Button()
         Me.Button8 = New System.Windows.Forms.Button()
         Me.Button9 = New System.Windows.Forms.Button()
-        Me.Go_Button = New System.Windows.Forms.Button()
+        Me.ButtonDec = New System.Windows.Forms.Button()
+        Me.Button0 = New System.Windows.Forms.Button()
+        Me.Backspace_Button = New System.Windows.Forms.Button()
         Me.No_Button = New System.Windows.Forms.Button()
+        Me.Go_Button = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -53,7 +56,7 @@ Partial Class depositAmount
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.PictureBox1.Location = New System.Drawing.Point(-5, -4)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(494, 468)
+        Me.PictureBox1.Size = New System.Drawing.Size(494, 494)
         Me.PictureBox1.TabIndex = 5
         Me.PictureBox1.TabStop = False
         '
@@ -71,6 +74,7 @@ Partial Class depositAmount
         '
         Me.AMMOUNT_box.Location = New System.Drawing.Point(116, 126)
         Me.AMMOUNT_box.Name = "AMMOUNT_box"
+        Me.AMMOUNT_box.ReadOnly = True
         Me.AMMOUNT_box.Size = New System.Drawing.Size(90, 22)
         Me.AMMOUNT_box.TabIndex = 43
         Me.AMMOUNT_box.Text = ""
@@ -79,6 +83,7 @@ Partial Class depositAmount
         '
         Me.Account_type.Location = New System.Drawing.Point(116, 171)
         Me.Account_type.Name = "Account_type"
+        Me.Account_type.ReadOnly = True
         Me.Account_type.Size = New System.Drawing.Size(90, 22)
         Me.Account_type.TabIndex = 44
         Me.Account_type.Text = ""
@@ -248,35 +253,74 @@ Partial Class depositAmount
         Me.Button9.Text = "9"
         Me.Button9.UseVisualStyleBackColor = True
         '
-        'Go_Button
+        'ButtonDec
         '
-        Me.Go_Button.BackColor = System.Drawing.Color.Transparent
-        Me.Go_Button.BackgroundImage = CType(resources.GetObject("Go_Button.BackgroundImage"), System.Drawing.Image)
-        Me.Go_Button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Go_Button.Location = New System.Drawing.Point(227, 339)
-        Me.Go_Button.Name = "Go_Button"
-        Me.Go_Button.Size = New System.Drawing.Size(36, 34)
-        Me.Go_Button.TabIndex = 59
-        Me.Go_Button.Text = " GO"
-        Me.Go_Button.UseVisualStyleBackColor = False
+        Me.ButtonDec.BackgroundImage = CType(resources.GetObject("ButtonDec.BackgroundImage"), System.Drawing.Image)
+        Me.ButtonDec.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.ButtonDec.Image = CType(resources.GetObject("ButtonDec.Image"), System.Drawing.Image)
+        Me.ButtonDec.Location = New System.Drawing.Point(185, 442)
+        Me.ButtonDec.Name = "ButtonDec"
+        Me.ButtonDec.Size = New System.Drawing.Size(36, 34)
+        Me.ButtonDec.TabIndex = 95
+        Me.ButtonDec.Text = "•"
+        Me.ButtonDec.UseVisualStyleBackColor = True
+        '
+        'Button0
+        '
+        Me.Button0.BackgroundImage = CType(resources.GetObject("Button0.BackgroundImage"), System.Drawing.Image)
+        Me.Button0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button0.Image = CType(resources.GetObject("Button0.Image"), System.Drawing.Image)
+        Me.Button0.Location = New System.Drawing.Point(101, 442)
+        Me.Button0.Name = "Button0"
+        Me.Button0.Size = New System.Drawing.Size(78, 34)
+        Me.Button0.TabIndex = 94
+        Me.Button0.Text = "0"
+        Me.Button0.UseVisualStyleBackColor = True
+        '
+        'Backspace_Button
+        '
+        Me.Backspace_Button.BackColor = System.Drawing.Color.Transparent
+        Me.Backspace_Button.BackgroundImage = CType(resources.GetObject("Backspace_Button.BackgroundImage"), System.Drawing.Image)
+        Me.Backspace_Button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Backspace_Button.Location = New System.Drawing.Point(227, 362)
+        Me.Backspace_Button.Name = "Backspace_Button"
+        Me.Backspace_Button.Size = New System.Drawing.Size(36, 34)
+        Me.Backspace_Button.TabIndex = 93
+        Me.Backspace_Button.Text = "←"
+        Me.Backspace_Button.UseVisualStyleBackColor = False
         '
         'No_Button
         '
         Me.No_Button.BackColor = System.Drawing.Color.Transparent
         Me.No_Button.BackgroundImage = CType(resources.GetObject("No_Button.BackgroundImage"), System.Drawing.Image)
         Me.No_Button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.No_Button.Location = New System.Drawing.Point(227, 379)
+        Me.No_Button.Location = New System.Drawing.Point(227, 322)
         Me.No_Button.Name = "No_Button"
         Me.No_Button.Size = New System.Drawing.Size(36, 34)
-        Me.No_Button.TabIndex = 60
-        Me.No_Button.Text = " NO"
+        Me.No_Button.TabIndex = 92
+        Me.No_Button.Text = "✕"
         Me.No_Button.UseVisualStyleBackColor = False
+        '
+        'Go_Button
+        '
+        Me.Go_Button.BackColor = System.Drawing.Color.Transparent
+        Me.Go_Button.BackgroundImage = CType(resources.GetObject("Go_Button.BackgroundImage"), System.Drawing.Image)
+        Me.Go_Button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Go_Button.Location = New System.Drawing.Point(227, 402)
+        Me.Go_Button.Name = "Go_Button"
+        Me.Go_Button.Size = New System.Drawing.Size(36, 34)
+        Me.Go_Button.TabIndex = 91
+        Me.Go_Button.Text = "○"
+        Me.Go_Button.UseVisualStyleBackColor = False
         '
         'depositAmount
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(484, 461)
+        Me.ClientSize = New System.Drawing.Size(484, 481)
+        Me.Controls.Add(Me.ButtonDec)
+        Me.Controls.Add(Me.Button0)
+        Me.Controls.Add(Me.Backspace_Button)
         Me.Controls.Add(Me.No_Button)
         Me.Controls.Add(Me.Go_Button)
         Me.Controls.Add(Me.Button9)
@@ -322,6 +366,9 @@ Partial Class depositAmount
     Friend WithEvents Button7 As System.Windows.Forms.Button
     Friend WithEvents Button8 As System.Windows.Forms.Button
     Friend WithEvents Button9 As System.Windows.Forms.Button
-    Friend WithEvents Go_Button As System.Windows.Forms.Button
+    Friend WithEvents ButtonDec As System.Windows.Forms.Button
+    Friend WithEvents Button0 As System.Windows.Forms.Button
+    Friend WithEvents Backspace_Button As System.Windows.Forms.Button
     Friend WithEvents No_Button As System.Windows.Forms.Button
+    Friend WithEvents Go_Button As System.Windows.Forms.Button
 End Class

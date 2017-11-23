@@ -38,11 +38,14 @@ Partial Class invalidWithdrawal
         Me.Button7 = New System.Windows.Forms.Button()
         Me.Button8 = New System.Windows.Forms.Button()
         Me.Button9 = New System.Windows.Forms.Button()
-        Me.Button14 = New System.Windows.Forms.Button()
-        Me.NO_Button = New System.Windows.Forms.Button()
         Me.Button18 = New System.Windows.Forms.Button()
         Me.Swipe_Slot = New System.Windows.Forms.Button()
         Me.Button11 = New System.Windows.Forms.Button()
+        Me.ButtonDec = New System.Windows.Forms.Button()
+        Me.Button0 = New System.Windows.Forms.Button()
+        Me.Back_Button = New System.Windows.Forms.Button()
+        Me.No_Button = New System.Windows.Forms.Button()
+        Me.Go_Button = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -53,7 +56,7 @@ Partial Class invalidWithdrawal
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.PictureBox1.Location = New System.Drawing.Point(-5, -4)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(494, 468)
+        Me.PictureBox1.Size = New System.Drawing.Size(494, 492)
         Me.PictureBox1.TabIndex = 3
         Me.PictureBox1.TabStop = False
         '
@@ -137,7 +140,7 @@ Partial Class invalidWithdrawal
         Me.Button3.BackgroundImage = CType(resources.GetObject("Button3.BackgroundImage"), System.Drawing.Image)
         Me.Button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button3.Image = CType(resources.GetObject("Button3.Image"), System.Drawing.Image)
-        Me.Button3.Location = New System.Drawing.Point(185, 316)
+        Me.Button3.Location = New System.Drawing.Point(181, 316)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(36, 34)
         Me.Button3.TabIndex = 37
@@ -173,7 +176,7 @@ Partial Class invalidWithdrawal
         Me.Button6.BackgroundImage = CType(resources.GetObject("Button6.BackgroundImage"), System.Drawing.Image)
         Me.Button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button6.Image = CType(resources.GetObject("Button6.Image"), System.Drawing.Image)
-        Me.Button6.Location = New System.Drawing.Point(185, 356)
+        Me.Button6.Location = New System.Drawing.Point(181, 356)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(36, 34)
         Me.Button6.TabIndex = 40
@@ -209,36 +212,12 @@ Partial Class invalidWithdrawal
         Me.Button9.BackgroundImage = CType(resources.GetObject("Button9.BackgroundImage"), System.Drawing.Image)
         Me.Button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button9.Image = CType(resources.GetObject("Button9.Image"), System.Drawing.Image)
-        Me.Button9.Location = New System.Drawing.Point(185, 396)
+        Me.Button9.Location = New System.Drawing.Point(181, 396)
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(36, 34)
         Me.Button9.TabIndex = 43
         Me.Button9.Text = "9"
         Me.Button9.UseVisualStyleBackColor = True
-        '
-        'Button14
-        '
-        Me.Button14.BackColor = System.Drawing.Color.Transparent
-        Me.Button14.BackgroundImage = CType(resources.GetObject("Button14.BackgroundImage"), System.Drawing.Image)
-        Me.Button14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button14.Location = New System.Drawing.Point(227, 341)
-        Me.Button14.Name = "Button14"
-        Me.Button14.Size = New System.Drawing.Size(36, 34)
-        Me.Button14.TabIndex = 44
-        Me.Button14.Text = " GO"
-        Me.Button14.UseVisualStyleBackColor = False
-        '
-        'NO_Button
-        '
-        Me.NO_Button.BackColor = System.Drawing.Color.Transparent
-        Me.NO_Button.BackgroundImage = CType(resources.GetObject("NO_Button.BackgroundImage"), System.Drawing.Image)
-        Me.NO_Button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.NO_Button.Location = New System.Drawing.Point(227, 381)
-        Me.NO_Button.Name = "NO_Button"
-        Me.NO_Button.Size = New System.Drawing.Size(36, 34)
-        Me.NO_Button.TabIndex = 45
-        Me.NO_Button.Text = " NO"
-        Me.NO_Button.UseVisualStyleBackColor = False
         '
         'Button18
         '
@@ -276,16 +255,79 @@ Partial Class invalidWithdrawal
         Me.Button11.Text = "Deposit Slot"
         Me.Button11.UseVisualStyleBackColor = False
         '
+        'ButtonDec
+        '
+        Me.ButtonDec.BackgroundImage = CType(resources.GetObject("ButtonDec.BackgroundImage"), System.Drawing.Image)
+        Me.ButtonDec.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.ButtonDec.Image = CType(resources.GetObject("ButtonDec.Image"), System.Drawing.Image)
+        Me.ButtonDec.Location = New System.Drawing.Point(181, 436)
+        Me.ButtonDec.Name = "ButtonDec"
+        Me.ButtonDec.Size = New System.Drawing.Size(36, 34)
+        Me.ButtonDec.TabIndex = 109
+        Me.ButtonDec.Text = "•"
+        Me.ButtonDec.UseVisualStyleBackColor = True
+        '
+        'Button0
+        '
+        Me.Button0.BackgroundImage = CType(resources.GetObject("Button0.BackgroundImage"), System.Drawing.Image)
+        Me.Button0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button0.Image = CType(resources.GetObject("Button0.Image"), System.Drawing.Image)
+        Me.Button0.Location = New System.Drawing.Point(97, 436)
+        Me.Button0.Name = "Button0"
+        Me.Button0.Size = New System.Drawing.Size(78, 34)
+        Me.Button0.TabIndex = 108
+        Me.Button0.Text = "0"
+        Me.Button0.UseVisualStyleBackColor = True
+        '
+        'Back_Button
+        '
+        Me.Back_Button.BackColor = System.Drawing.Color.Transparent
+        Me.Back_Button.BackgroundImage = CType(resources.GetObject("Back_Button.BackgroundImage"), System.Drawing.Image)
+        Me.Back_Button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Back_Button.Location = New System.Drawing.Point(223, 356)
+        Me.Back_Button.Name = "Back_Button"
+        Me.Back_Button.Size = New System.Drawing.Size(36, 34)
+        Me.Back_Button.TabIndex = 107
+        Me.Back_Button.Text = "←"
+        Me.Back_Button.UseVisualStyleBackColor = False
+        '
+        'No_Button
+        '
+        Me.No_Button.BackColor = System.Drawing.Color.Transparent
+        Me.No_Button.BackgroundImage = CType(resources.GetObject("No_Button.BackgroundImage"), System.Drawing.Image)
+        Me.No_Button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.No_Button.Location = New System.Drawing.Point(223, 316)
+        Me.No_Button.Name = "No_Button"
+        Me.No_Button.Size = New System.Drawing.Size(36, 34)
+        Me.No_Button.TabIndex = 106
+        Me.No_Button.Text = "✕"
+        Me.No_Button.UseVisualStyleBackColor = False
+        '
+        'Go_Button
+        '
+        Me.Go_Button.BackColor = System.Drawing.Color.Transparent
+        Me.Go_Button.BackgroundImage = CType(resources.GetObject("Go_Button.BackgroundImage"), System.Drawing.Image)
+        Me.Go_Button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Go_Button.Location = New System.Drawing.Point(223, 396)
+        Me.Go_Button.Name = "Go_Button"
+        Me.Go_Button.Size = New System.Drawing.Size(36, 34)
+        Me.Go_Button.TabIndex = 105
+        Me.Go_Button.Text = "○"
+        Me.Go_Button.UseVisualStyleBackColor = False
+        '
         'invalidWithdrawal
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(484, 461)
+        Me.ClientSize = New System.Drawing.Size(484, 481)
+        Me.Controls.Add(Me.ButtonDec)
+        Me.Controls.Add(Me.Button0)
+        Me.Controls.Add(Me.Back_Button)
+        Me.Controls.Add(Me.No_Button)
+        Me.Controls.Add(Me.Go_Button)
         Me.Controls.Add(Me.Button11)
         Me.Controls.Add(Me.Swipe_Slot)
         Me.Controls.Add(Me.Button18)
-        Me.Controls.Add(Me.NO_Button)
-        Me.Controls.Add(Me.Button14)
         Me.Controls.Add(Me.Button9)
         Me.Controls.Add(Me.Button8)
         Me.Controls.Add(Me.Button7)
@@ -323,9 +365,12 @@ Partial Class invalidWithdrawal
     Friend WithEvents Button7 As System.Windows.Forms.Button
     Friend WithEvents Button8 As System.Windows.Forms.Button
     Friend WithEvents Button9 As System.Windows.Forms.Button
-    Friend WithEvents Button14 As System.Windows.Forms.Button
-    Friend WithEvents NO_Button As System.Windows.Forms.Button
     Friend WithEvents Button18 As System.Windows.Forms.Button
     Friend WithEvents Swipe_Slot As System.Windows.Forms.Button
     Friend WithEvents Button11 As System.Windows.Forms.Button
+    Friend WithEvents ButtonDec As System.Windows.Forms.Button
+    Friend WithEvents Button0 As System.Windows.Forms.Button
+    Friend WithEvents Back_Button As System.Windows.Forms.Button
+    Friend WithEvents No_Button As System.Windows.Forms.Button
+    Friend WithEvents Go_Button As System.Windows.Forms.Button
 End Class

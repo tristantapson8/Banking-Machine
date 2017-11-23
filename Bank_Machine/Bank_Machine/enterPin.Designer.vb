@@ -38,9 +38,12 @@ Partial Class enterPin
         Me.Receipt_Slot = New System.Windows.Forms.Button()
         Me.Swipe_Slot = New System.Windows.Forms.Button()
         Me.Button11 = New System.Windows.Forms.Button()
-        Me.Go_Button = New System.Windows.Forms.Button()
-        Me.No_Button = New System.Windows.Forms.Button()
         Me.PIN_box = New System.Windows.Forms.RichTextBox()
+        Me.ButtonDec = New System.Windows.Forms.Button()
+        Me.Button0 = New System.Windows.Forms.Button()
+        Me.Back_Button = New System.Windows.Forms.Button()
+        Me.No_Button = New System.Windows.Forms.Button()
+        Me.Go_Button = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -51,7 +54,7 @@ Partial Class enterPin
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.PictureBox1.Location = New System.Drawing.Point(-5, -4)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(494, 468)
+        Me.PictureBox1.Size = New System.Drawing.Size(494, 495)
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
         '
@@ -82,7 +85,7 @@ Partial Class enterPin
         Me.Button1.BackgroundImage = CType(resources.GetObject("Button1.BackgroundImage"), System.Drawing.Image)
         Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button1.Image = CType(resources.GetObject("Button1.Image"), System.Drawing.Image)
-        Me.Button1.Location = New System.Drawing.Point(107, 316)
+        Me.Button1.Location = New System.Drawing.Point(103, 316)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(36, 34)
         Me.Button1.TabIndex = 15
@@ -94,7 +97,7 @@ Partial Class enterPin
         Me.Button2.BackgroundImage = CType(resources.GetObject("Button2.BackgroundImage"), System.Drawing.Image)
         Me.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button2.Image = CType(resources.GetObject("Button2.Image"), System.Drawing.Image)
-        Me.Button2.Location = New System.Drawing.Point(149, 316)
+        Me.Button2.Location = New System.Drawing.Point(145, 316)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(36, 34)
         Me.Button2.TabIndex = 16
@@ -106,7 +109,7 @@ Partial Class enterPin
         Me.Button3.BackgroundImage = CType(resources.GetObject("Button3.BackgroundImage"), System.Drawing.Image)
         Me.Button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button3.Image = CType(resources.GetObject("Button3.Image"), System.Drawing.Image)
-        Me.Button3.Location = New System.Drawing.Point(191, 316)
+        Me.Button3.Location = New System.Drawing.Point(187, 316)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(36, 34)
         Me.Button3.TabIndex = 17
@@ -118,7 +121,7 @@ Partial Class enterPin
         Me.Button4.BackgroundImage = CType(resources.GetObject("Button4.BackgroundImage"), System.Drawing.Image)
         Me.Button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button4.Image = CType(resources.GetObject("Button4.Image"), System.Drawing.Image)
-        Me.Button4.Location = New System.Drawing.Point(107, 356)
+        Me.Button4.Location = New System.Drawing.Point(103, 356)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(36, 34)
         Me.Button4.TabIndex = 18
@@ -130,7 +133,7 @@ Partial Class enterPin
         Me.Button5.BackgroundImage = CType(resources.GetObject("Button5.BackgroundImage"), System.Drawing.Image)
         Me.Button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button5.Image = CType(resources.GetObject("Button5.Image"), System.Drawing.Image)
-        Me.Button5.Location = New System.Drawing.Point(149, 356)
+        Me.Button5.Location = New System.Drawing.Point(145, 356)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(36, 34)
         Me.Button5.TabIndex = 19
@@ -142,7 +145,7 @@ Partial Class enterPin
         Me.Button6.BackgroundImage = CType(resources.GetObject("Button6.BackgroundImage"), System.Drawing.Image)
         Me.Button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button6.Image = CType(resources.GetObject("Button6.Image"), System.Drawing.Image)
-        Me.Button6.Location = New System.Drawing.Point(191, 356)
+        Me.Button6.Location = New System.Drawing.Point(187, 356)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(36, 34)
         Me.Button6.TabIndex = 20
@@ -154,7 +157,7 @@ Partial Class enterPin
         Me.Button7.BackgroundImage = CType(resources.GetObject("Button7.BackgroundImage"), System.Drawing.Image)
         Me.Button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button7.Image = CType(resources.GetObject("Button7.Image"), System.Drawing.Image)
-        Me.Button7.Location = New System.Drawing.Point(107, 396)
+        Me.Button7.Location = New System.Drawing.Point(103, 396)
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(36, 34)
         Me.Button7.TabIndex = 21
@@ -166,7 +169,7 @@ Partial Class enterPin
         Me.Button8.BackgroundImage = CType(resources.GetObject("Button8.BackgroundImage"), System.Drawing.Image)
         Me.Button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button8.Image = CType(resources.GetObject("Button8.Image"), System.Drawing.Image)
-        Me.Button8.Location = New System.Drawing.Point(149, 396)
+        Me.Button8.Location = New System.Drawing.Point(145, 396)
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(36, 34)
         Me.Button8.TabIndex = 22
@@ -178,7 +181,7 @@ Partial Class enterPin
         Me.Button9.BackgroundImage = CType(resources.GetObject("Button9.BackgroundImage"), System.Drawing.Image)
         Me.Button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button9.Image = CType(resources.GetObject("Button9.Image"), System.Drawing.Image)
-        Me.Button9.Location = New System.Drawing.Point(191, 396)
+        Me.Button9.Location = New System.Drawing.Point(187, 396)
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(36, 34)
         Me.Button9.TabIndex = 23
@@ -221,46 +224,87 @@ Partial Class enterPin
         Me.Button11.Text = "Deposit Slot"
         Me.Button11.UseVisualStyleBackColor = False
         '
-        'Go_Button
+        'PIN_box
         '
-        Me.Go_Button.BackColor = System.Drawing.Color.Transparent
-        Me.Go_Button.BackgroundImage = CType(resources.GetObject("Go_Button.BackgroundImage"), System.Drawing.Image)
-        Me.Go_Button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Go_Button.Location = New System.Drawing.Point(233, 335)
-        Me.Go_Button.Name = "Go_Button"
-        Me.Go_Button.Size = New System.Drawing.Size(36, 34)
-        Me.Go_Button.TabIndex = 27
-        Me.Go_Button.Text = " GO"
-        Me.Go_Button.UseVisualStyleBackColor = False
+        Me.PIN_box.Location = New System.Drawing.Point(48, 131)
+        Me.PIN_box.MaxLength = 4
+        Me.PIN_box.Name = "PIN_box"
+        Me.PIN_box.ReadOnly = True
+        Me.PIN_box.Size = New System.Drawing.Size(82, 20)
+        Me.PIN_box.TabIndex = 29
+        Me.PIN_box.Text = ""
+        '
+        'ButtonDec
+        '
+        Me.ButtonDec.BackgroundImage = CType(resources.GetObject("ButtonDec.BackgroundImage"), System.Drawing.Image)
+        Me.ButtonDec.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.ButtonDec.Image = CType(resources.GetObject("ButtonDec.Image"), System.Drawing.Image)
+        Me.ButtonDec.Location = New System.Drawing.Point(187, 436)
+        Me.ButtonDec.Name = "ButtonDec"
+        Me.ButtonDec.Size = New System.Drawing.Size(36, 34)
+        Me.ButtonDec.TabIndex = 95
+        Me.ButtonDec.Text = "•"
+        Me.ButtonDec.UseVisualStyleBackColor = True
+        '
+        'Button0
+        '
+        Me.Button0.BackgroundImage = CType(resources.GetObject("Button0.BackgroundImage"), System.Drawing.Image)
+        Me.Button0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button0.Image = CType(resources.GetObject("Button0.Image"), System.Drawing.Image)
+        Me.Button0.Location = New System.Drawing.Point(103, 436)
+        Me.Button0.Name = "Button0"
+        Me.Button0.Size = New System.Drawing.Size(78, 34)
+        Me.Button0.TabIndex = 94
+        Me.Button0.Text = "0"
+        Me.Button0.UseVisualStyleBackColor = True
+        '
+        'Back_Button
+        '
+        Me.Back_Button.BackColor = System.Drawing.Color.Transparent
+        Me.Back_Button.BackgroundImage = CType(resources.GetObject("Back_Button.BackgroundImage"), System.Drawing.Image)
+        Me.Back_Button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Back_Button.Location = New System.Drawing.Point(229, 356)
+        Me.Back_Button.Name = "Back_Button"
+        Me.Back_Button.Size = New System.Drawing.Size(36, 34)
+        Me.Back_Button.TabIndex = 93
+        Me.Back_Button.Text = "←"
+        Me.Back_Button.UseVisualStyleBackColor = False
         '
         'No_Button
         '
         Me.No_Button.BackColor = System.Drawing.Color.Transparent
         Me.No_Button.BackgroundImage = CType(resources.GetObject("No_Button.BackgroundImage"), System.Drawing.Image)
         Me.No_Button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.No_Button.Location = New System.Drawing.Point(233, 375)
+        Me.No_Button.Location = New System.Drawing.Point(229, 316)
         Me.No_Button.Name = "No_Button"
         Me.No_Button.Size = New System.Drawing.Size(36, 34)
-        Me.No_Button.TabIndex = 28
-        Me.No_Button.Text = " NO"
+        Me.No_Button.TabIndex = 92
+        Me.No_Button.Text = "✕"
         Me.No_Button.UseVisualStyleBackColor = False
         '
-        'PIN_box
+        'Go_Button
         '
-        Me.PIN_box.Location = New System.Drawing.Point(48, 131)
-        Me.PIN_box.Name = "PIN_box"
-        Me.PIN_box.Size = New System.Drawing.Size(82, 20)
-        Me.PIN_box.TabIndex = 29
-        Me.PIN_box.Text = ""
+        Me.Go_Button.BackColor = System.Drawing.Color.Transparent
+        Me.Go_Button.BackgroundImage = CType(resources.GetObject("Go_Button.BackgroundImage"), System.Drawing.Image)
+        Me.Go_Button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Go_Button.Location = New System.Drawing.Point(229, 396)
+        Me.Go_Button.Name = "Go_Button"
+        Me.Go_Button.Size = New System.Drawing.Size(36, 34)
+        Me.Go_Button.TabIndex = 91
+        Me.Go_Button.Text = "○"
+        Me.Go_Button.UseVisualStyleBackColor = False
         '
         'enterPin
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(484, 461)
-        Me.Controls.Add(Me.PIN_box)
+        Me.ClientSize = New System.Drawing.Size(484, 481)
+        Me.Controls.Add(Me.ButtonDec)
+        Me.Controls.Add(Me.Button0)
+        Me.Controls.Add(Me.Back_Button)
         Me.Controls.Add(Me.No_Button)
         Me.Controls.Add(Me.Go_Button)
+        Me.Controls.Add(Me.PIN_box)
         Me.Controls.Add(Me.Button11)
         Me.Controls.Add(Me.Swipe_Slot)
         Me.Controls.Add(Me.Receipt_Slot)
@@ -298,7 +342,10 @@ Partial Class enterPin
     Friend WithEvents Receipt_Slot As System.Windows.Forms.Button
     Friend WithEvents Swipe_Slot As System.Windows.Forms.Button
     Friend WithEvents Button11 As System.Windows.Forms.Button
-    Friend WithEvents Go_Button As System.Windows.Forms.Button
-    Friend WithEvents No_Button As System.Windows.Forms.Button
     Friend WithEvents PIN_box As System.Windows.Forms.RichTextBox
+    Friend WithEvents ButtonDec As System.Windows.Forms.Button
+    Friend WithEvents Button0 As System.Windows.Forms.Button
+    Friend WithEvents Back_Button As System.Windows.Forms.Button
+    Friend WithEvents No_Button As System.Windows.Forms.Button
+    Friend WithEvents Go_Button As System.Windows.Forms.Button
 End Class

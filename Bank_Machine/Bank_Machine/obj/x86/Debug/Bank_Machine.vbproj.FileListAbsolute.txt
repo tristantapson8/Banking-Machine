@@ -61,6 +61,35 @@ C:\Users\Ren-David\Repos\Banking-Machine\Bank_Machine\Bank_Machine\obj\x86\Debug
 C:\Users\Ren-David\Repos\Banking-Machine\Bank_Machine\Bank_Machine\obj\x86\Debug\Bank_Machine.xml
 C:\Users\Ren-David\Repos\Banking-Machine\Bank_Machine\Bank_Machine\obj\x86\Debug\Bank_Machine.pdb
 C:\Users\Ren-David\Repos\Banking-Machine\Bank_Machine\Bank_Machine\obj\x86\Debug\Bank_Machine.quickWithdraw.resources
-C:\Users\Ren-David\Repos\Banking-Machine\Bank_Machine\Bank_Machine\obj\x86\Debug\Bank_Machine.invalidTransfer.resources
-C:\Users\Ren-David\Repos\Banking-Machine\Bank_Machine\Bank_Machine\obj\x86\Debug\Bank_Machine.validTransfer.resources
-C:\Users\Ren-David\Repos\Banking-Machine\Bank_Machine\Bank_Machine\obj\x86\Debug\Bank_Machine.exitNotice.resources
+D:\Documents\School\4HC3\Assignments\Assignment 2\2\Banking-Machine-master\Bank_Machine\Bank_Machine\obj\x86\Debug\Bank_Machine.exe
+D:\Documents\School\4HC3\Assignments\Assignment 2\2\Banking-Machine-master\Bank_Machine\Bank_Machine\obj\x86\Debug\Bank_Machine.xml
+D:\Documents\School\4HC3\Assignments\Assignment 2\2\Banking-Machine-master\Bank_Machine\Bank_Machine\obj\x86\Debug\Bank_Machine.pdb
+D:\Documents\School\4HC3\Assignments\Assignment 2\2\Banking-Machine-master\Bank_Machine\Bank_Machine\bin\Debug\Bank_Machine.exe
+D:\Documents\School\4HC3\Assignments\Assignment 2\2\Banking-Machine-master\Bank_Machine\Bank_Machine\bin\Debug\Bank_Machine.pdb
+D:\Documents\School\4HC3\Assignments\Assignment 2\2\Banking-Machine-master\Bank_Machine\Bank_Machine\bin\Debug\Bank_Machine.xml
+D:\Documents\School\4HC3\Assignments\Assignment 2\2\Banking-Machine-master\Bank_Machine\Bank_Machine\obj\x86\Debug\Bank_Machine.accountInfo.resources
+D:\Documents\School\4HC3\Assignments\Assignment 2\2\Banking-Machine-master\Bank_Machine\Bank_Machine\obj\x86\Debug\Bank_Machine.cashMain.resources
+D:\Documents\School\4HC3\Assignments\Assignment 2\2\Banking-Machine-master\Bank_Machine\Bank_Machine\obj\x86\Debug\Bank_Machine.cashNoReceipt.resources
+D:\Documents\School\4HC3\Assignments\Assignment 2\2\Banking-Machine-master\Bank_Machine\Bank_Machine\obj\x86\Debug\Bank_Machine.cashReceipt.resources
+D:\Documents\School\4HC3\Assignments\Assignment 2\2\Banking-Machine-master\Bank_Machine\Bank_Machine\obj\x86\Debug\Bank_Machine.deposit.resources
+D:\Documents\School\4HC3\Assignments\Assignment 2\2\Banking-Machine-master\Bank_Machine\Bank_Machine\obj\x86\Debug\Bank_Machine.depositAmount.resources
+D:\Documents\School\4HC3\Assignments\Assignment 2\2\Banking-Machine-master\Bank_Machine\Bank_Machine\obj\x86\Debug\Bank_Machine.enterAccountNum.resources
+D:\Documents\School\4HC3\Assignments\Assignment 2\2\Banking-Machine-master\Bank_Machine\Bank_Machine\obj\x86\Debug\Bank_Machine.enterPin.resources
+D:\Documents\School\4HC3\Assignments\Assignment 2\2\Banking-Machine-master\Bank_Machine\Bank_Machine\obj\x86\Debug\Bank_Machine.invalidWithdrawal.resources
+D:\Documents\School\4HC3\Assignments\Assignment 2\2\Banking-Machine-master\Bank_Machine\Bank_Machine\obj\x86\Debug\Bank_Machine.mainMenu.resources
+D:\Documents\School\4HC3\Assignments\Assignment 2\2\Banking-Machine-master\Bank_Machine\Bank_Machine\obj\x86\Debug\Bank_Machine.quickWithdraw.resources
+D:\Documents\School\4HC3\Assignments\Assignment 2\2\Banking-Machine-master\Bank_Machine\Bank_Machine\obj\x86\Debug\Bank_Machine.Receipt.resources
+D:\Documents\School\4HC3\Assignments\Assignment 2\2\Banking-Machine-master\Bank_Machine\Bank_Machine\obj\x86\Debug\Bank_Machine.startScreen.resources
+D:\Documents\School\4HC3\Assignments\Assignment 2\2\Banking-Machine-master\Bank_Machine\Bank_Machine\obj\x86\Debug\Bank_Machine.Resources.resources
+D:\Documents\School\4HC3\Assignments\Assignment 2\2\Banking-Machine-master\Bank_Machine\Bank_Machine\obj\x86\Debug\Bank_Machine.transfer1.resources
+D:\Documents\School\4HC3\Assignments\Assignment 2\2\Banking-Machine-master\Bank_Machine\Bank_Machine\obj\x86\Debug\Bank_Machine.transfer2.resources
+D:\Documents\School\4HC3\Assignments\Assignment 2\2\Banking-Machine-master\Bank_Machine\Bank_Machine\obj\x86\Debug\Bank_Machine.transferAmount.resources
+D:\Documents\School\4HC3\Assignments\Assignment 2\2\Banking-Machine-master\Bank_Machine\Bank_Machine\obj\x86\Debug\Bank_Machine.validDeposit.resources
+D:\Documents\School\4HC3\Assignments\Assignment 2\2\Banking-Machine-master\Bank_Machine\Bank_Machine\obj\x86\Debug\Bank_Machine.validWithdrawal.resources
+D:\Documents\School\4HC3\Assignments\Assignment 2\2\Banking-Machine-master\Bank_Machine\Bank_Machine\obj\x86\Debug\Bank_Machine.withdraw.resources
+D:\Documents\School\4HC3\Assignments\Assignment 2\2\Banking-Machine-master\Bank_Machine\Bank_Machine\obj\x86\Debug\Bank_Machine.withdrawAmount.resources
+D:\Documents\School\4HC3\Assignments\Assignment 2\2\Banking-Machine-master\Bank_Machine\Bank_Machine\obj\x86\Debug\Bank_Machine.vbproj.GenerateResource.Cache
+D:\Documents\School\4HC3\Assignments\Assignment 2\2\Banking-Machine-master\Bank_Machine\Bank_Machine\obj\x86\Debug\Bank_Machine.invalidTransfer.resources
+D:\Documents\School\4HC3\Assignments\Assignment 2\2\Banking-Machine-master\Bank_Machine\Bank_Machine\obj\x86\Debug\Bank_Machine.validTransfer.resources
+D:\Documents\School\4HC3\Assignments\Assignment 2\2\Banking-Machine-master\Bank_Machine\Bank_Machine\obj\x86\Debug\Bank_Machine.exitConfirm.resources
+D:\Documents\School\4HC3\Assignments\Assignment 2\2\Banking-Machine-master\Bank_Machine\Bank_Machine\obj\x86\Debug\Bank_Machine.exitNotice.resources

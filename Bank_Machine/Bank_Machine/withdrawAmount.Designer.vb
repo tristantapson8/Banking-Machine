@@ -39,10 +39,13 @@ Partial Class withdrawAmount
         Me.Button11 = New System.Windows.Forms.Button()
         Me.Swipe_Slot = New System.Windows.Forms.Button()
         Me.Receipt_Slot = New System.Windows.Forms.Button()
-        Me.Go_Button = New System.Windows.Forms.Button()
-        Me.No_Button = New System.Windows.Forms.Button()
         Me.Account_type = New System.Windows.Forms.RichTextBox()
         Me.AMMOUNT_box = New System.Windows.Forms.RichTextBox()
+        Me.ButtonDec = New System.Windows.Forms.Button()
+        Me.Button0 = New System.Windows.Forms.Button()
+        Me.Backspace_Button = New System.Windows.Forms.Button()
+        Me.No_Button = New System.Windows.Forms.Button()
+        Me.Go_Button = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -53,7 +56,7 @@ Partial Class withdrawAmount
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.PictureBox1.Location = New System.Drawing.Point(-5, -4)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(494, 468)
+        Me.PictureBox1.Size = New System.Drawing.Size(494, 492)
         Me.PictureBox1.TabIndex = 4
         Me.PictureBox1.TabStop = False
         '
@@ -232,34 +235,11 @@ Partial Class withdrawAmount
         Me.Receipt_Slot.Text = "Receipt Slot"
         Me.Receipt_Slot.UseVisualStyleBackColor = False
         '
-        'Go_Button
-        '
-        Me.Go_Button.BackColor = System.Drawing.Color.Transparent
-        Me.Go_Button.BackgroundImage = CType(resources.GetObject("Go_Button.BackgroundImage"), System.Drawing.Image)
-        Me.Go_Button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Go_Button.Location = New System.Drawing.Point(229, 332)
-        Me.Go_Button.Name = "Go_Button"
-        Me.Go_Button.Size = New System.Drawing.Size(36, 34)
-        Me.Go_Button.TabIndex = 39
-        Me.Go_Button.Text = " GO"
-        Me.Go_Button.UseVisualStyleBackColor = False
-        '
-        'No_Button
-        '
-        Me.No_Button.BackColor = System.Drawing.Color.Transparent
-        Me.No_Button.BackgroundImage = CType(resources.GetObject("No_Button.BackgroundImage"), System.Drawing.Image)
-        Me.No_Button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.No_Button.Location = New System.Drawing.Point(229, 372)
-        Me.No_Button.Name = "No_Button"
-        Me.No_Button.Size = New System.Drawing.Size(36, 34)
-        Me.No_Button.TabIndex = 40
-        Me.No_Button.Text = " NO"
-        Me.No_Button.UseVisualStyleBackColor = False
-        '
         'Account_type
         '
         Me.Account_type.Location = New System.Drawing.Point(118, 186)
         Me.Account_type.Name = "Account_type"
+        Me.Account_type.ReadOnly = True
         Me.Account_type.Size = New System.Drawing.Size(90, 22)
         Me.Account_type.TabIndex = 41
         Me.Account_type.Text = ""
@@ -268,19 +248,83 @@ Partial Class withdrawAmount
         '
         Me.AMMOUNT_box.Location = New System.Drawing.Point(118, 139)
         Me.AMMOUNT_box.Name = "AMMOUNT_box"
+        Me.AMMOUNT_box.ReadOnly = True
         Me.AMMOUNT_box.Size = New System.Drawing.Size(90, 22)
         Me.AMMOUNT_box.TabIndex = 42
         Me.AMMOUNT_box.Text = ""
+        '
+        'ButtonDec
+        '
+        Me.ButtonDec.BackgroundImage = CType(resources.GetObject("ButtonDec.BackgroundImage"), System.Drawing.Image)
+        Me.ButtonDec.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.ButtonDec.Image = CType(resources.GetObject("ButtonDec.Image"), System.Drawing.Image)
+        Me.ButtonDec.Location = New System.Drawing.Point(187, 436)
+        Me.ButtonDec.Name = "ButtonDec"
+        Me.ButtonDec.Size = New System.Drawing.Size(36, 34)
+        Me.ButtonDec.TabIndex = 109
+        Me.ButtonDec.Text = "•"
+        Me.ButtonDec.UseVisualStyleBackColor = True
+        '
+        'Button0
+        '
+        Me.Button0.BackgroundImage = CType(resources.GetObject("Button0.BackgroundImage"), System.Drawing.Image)
+        Me.Button0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button0.Image = CType(resources.GetObject("Button0.Image"), System.Drawing.Image)
+        Me.Button0.Location = New System.Drawing.Point(103, 436)
+        Me.Button0.Name = "Button0"
+        Me.Button0.Size = New System.Drawing.Size(78, 34)
+        Me.Button0.TabIndex = 108
+        Me.Button0.Text = "0"
+        Me.Button0.UseVisualStyleBackColor = True
+        '
+        'Backspace_Button
+        '
+        Me.Backspace_Button.BackColor = System.Drawing.Color.Transparent
+        Me.Backspace_Button.BackgroundImage = CType(resources.GetObject("Backspace_Button.BackgroundImage"), System.Drawing.Image)
+        Me.Backspace_Button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Backspace_Button.Location = New System.Drawing.Point(229, 356)
+        Me.Backspace_Button.Name = "Backspace_Button"
+        Me.Backspace_Button.Size = New System.Drawing.Size(36, 34)
+        Me.Backspace_Button.TabIndex = 107
+        Me.Backspace_Button.Text = "←"
+        Me.Backspace_Button.UseVisualStyleBackColor = False
+        '
+        'No_Button
+        '
+        Me.No_Button.BackColor = System.Drawing.Color.Transparent
+        Me.No_Button.BackgroundImage = CType(resources.GetObject("No_Button.BackgroundImage"), System.Drawing.Image)
+        Me.No_Button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.No_Button.Location = New System.Drawing.Point(229, 316)
+        Me.No_Button.Name = "No_Button"
+        Me.No_Button.Size = New System.Drawing.Size(36, 34)
+        Me.No_Button.TabIndex = 106
+        Me.No_Button.Text = "✕"
+        Me.No_Button.UseVisualStyleBackColor = False
+        '
+        'Go_Button
+        '
+        Me.Go_Button.BackColor = System.Drawing.Color.Transparent
+        Me.Go_Button.BackgroundImage = CType(resources.GetObject("Go_Button.BackgroundImage"), System.Drawing.Image)
+        Me.Go_Button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Go_Button.Location = New System.Drawing.Point(229, 396)
+        Me.Go_Button.Name = "Go_Button"
+        Me.Go_Button.Size = New System.Drawing.Size(36, 34)
+        Me.Go_Button.TabIndex = 105
+        Me.Go_Button.Text = "○"
+        Me.Go_Button.UseVisualStyleBackColor = False
         '
         'withdrawAmount
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(484, 461)
-        Me.Controls.Add(Me.AMMOUNT_box)
-        Me.Controls.Add(Me.Account_type)
+        Me.ClientSize = New System.Drawing.Size(484, 481)
+        Me.Controls.Add(Me.ButtonDec)
+        Me.Controls.Add(Me.Button0)
+        Me.Controls.Add(Me.Backspace_Button)
         Me.Controls.Add(Me.No_Button)
         Me.Controls.Add(Me.Go_Button)
+        Me.Controls.Add(Me.AMMOUNT_box)
+        Me.Controls.Add(Me.Account_type)
         Me.Controls.Add(Me.Receipt_Slot)
         Me.Controls.Add(Me.Swipe_Slot)
         Me.Controls.Add(Me.Button11)
@@ -320,8 +364,11 @@ Partial Class withdrawAmount
     Friend WithEvents Button11 As System.Windows.Forms.Button
     Friend WithEvents Swipe_Slot As System.Windows.Forms.Button
     Friend WithEvents Receipt_Slot As System.Windows.Forms.Button
-    Friend WithEvents Go_Button As System.Windows.Forms.Button
-    Friend WithEvents No_Button As System.Windows.Forms.Button
     Friend WithEvents Account_type As System.Windows.Forms.RichTextBox
     Friend WithEvents AMMOUNT_box As System.Windows.Forms.RichTextBox
+    Friend WithEvents ButtonDec As System.Windows.Forms.Button
+    Friend WithEvents Button0 As System.Windows.Forms.Button
+    Friend WithEvents Backspace_Button As System.Windows.Forms.Button
+    Friend WithEvents No_Button As System.Windows.Forms.Button
+    Friend WithEvents Go_Button As System.Windows.Forms.Button
 End Class

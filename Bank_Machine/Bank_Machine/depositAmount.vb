@@ -43,7 +43,15 @@
         AMMOUNT_box.Text = AMMOUNT_box.Text & 9
     End Sub
 
-    Private Sub Go_Button_Click(sender As System.Object, e As System.EventArgs) Handles Go_Button.Click
+    Private Sub Button0_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button0.Click
+        AMMOUNT_box.Text = AMMOUNT_box.Text & 0
+    End Sub
+
+    Private Sub ButtonDec_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonDec.Click
+        AMMOUNT_box.Text = AMMOUNT_box.Text & "."
+    End Sub
+
+    Private Sub Go_Button_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Go_Button.Click
         dA = Double.Parse(AMMOUNT_box.Text)
         AMMOUNT_box.Text = ""
 
@@ -83,8 +91,16 @@
         Me.Hide()
     End Sub
 
-    Private Sub No_Button_Click(sender As System.Object, e As System.EventArgs) Handles No_Button.Click
+    Private Sub No_Button_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles No_Button.Click
         AMMOUNT_box.Text = ""
+    End Sub
+
+    Private Sub Backspace_Button_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Backspace_Button.Click
+        If AMMOUNT_box.Text < " " Then
+            AMMOUNT_box.Text = Mid(AMMOUNT_box.Text, 1, Len(AMMOUNT_box.Text) - 1 + 1)
+        Else
+            AMMOUNT_box.Text = Mid(AMMOUNT_box.Text, 1, Len(AMMOUNT_box.Text) - 1)
+        End If
     End Sub
 
 End Class

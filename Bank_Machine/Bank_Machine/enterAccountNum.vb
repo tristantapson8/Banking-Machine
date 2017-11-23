@@ -36,6 +36,14 @@
         ACCOUNT_box.Text = ACCOUNT_box.Text & 9
     End Sub
 
+    Private Sub Button0_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button0.Click
+        ACCOUNT_box.Text = ACCOUNT_box.Text & 0
+    End Sub
+
+    Private Sub ButtonDec_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonDec.Click
+        ACCOUNT_box.Text = ACCOUNT_box.Text & "."
+    End Sub
+
     'Clears the PIN entry field
     Private Sub No_Button_Click(sender As System.Object, e As System.EventArgs) Handles No_Button.Click
         ACCOUNT_box.Clear()
@@ -51,7 +59,11 @@
         End If
     End Sub
 
-    Private Sub Button11_Click(sender As System.Object, e As System.EventArgs) Handles Button11.Click
-
+    Private Sub Back_Button_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Back_Button.Click
+        If ACCOUNT_box.Text < " " Then
+            ACCOUNT_box.Text = Mid(ACCOUNT_box.Text, 1, Len(ACCOUNT_box.Text) - 1 + 1)
+        Else
+            ACCOUNT_box.Text = Mid(ACCOUNT_box.Text, 1, Len(ACCOUNT_box.Text) - 1)
+        End If
     End Sub
 End Class

@@ -114,10 +114,22 @@
     <Compile Include="enterPin.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="acountInfo.Designer.vb">
+      <DependentUpon>acountInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="acountInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="exitNotice.Designer.vb">
       <DependentUpon>exitNotice.vb</DependentUpon>
     </Compile>
     <Compile Include="exitNotice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="exitConfirm.Designer.vb">
+      <DependentUpon>exitConfirm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="exitConfirm.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="invalidTransfer.Designer.vb">
@@ -222,6 +234,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="acountInfo.resx">
+      <DependentUpon>acountInfo.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="cashMain.resx">
       <DependentUpon>cashMain.vb</DependentUpon>
     </EmbeddedResource>
@@ -242,6 +257,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="enterPin.resx">
       <DependentUpon>enterPin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="exitConfirm.resx">
+      <DependentUpon>exitConfirm.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="exitNotice.resx">
       <DependentUpon>exitNotice.vb</DependentUpon>

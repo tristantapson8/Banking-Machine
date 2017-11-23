@@ -41,6 +41,9 @@ Partial Class enterAccountNum
         Me.Button11 = New System.Windows.Forms.Button()
         Me.Swipe_Slot = New System.Windows.Forms.Button()
         Me.Receipt_Slot = New System.Windows.Forms.Button()
+        Me.Back_Button = New System.Windows.Forms.Button()
+        Me.Button0 = New System.Windows.Forms.Button()
+        Me.ButtonDec = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -51,7 +54,7 @@ Partial Class enterAccountNum
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.PictureBox1.Location = New System.Drawing.Point(-5, -4)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(494, 468)
+        Me.PictureBox1.Size = New System.Drawing.Size(494, 490)
         Me.PictureBox1.TabIndex = 2
         Me.PictureBox1.TabStop = False
         '
@@ -68,6 +71,7 @@ Partial Class enterAccountNum
         'ACCOUNT_box
         '
         Me.ACCOUNT_box.Location = New System.Drawing.Point(46, 127)
+        Me.ACCOUNT_box.MaxLength = 8
         Me.ACCOUNT_box.Name = "ACCOUNT_box"
         Me.ACCOUNT_box.ReadOnly = True
         Me.ACCOUNT_box.Size = New System.Drawing.Size(90, 20)
@@ -198,11 +202,11 @@ Partial Class enterAccountNum
         Me.Go_Button.BackColor = System.Drawing.Color.Transparent
         Me.Go_Button.BackgroundImage = CType(resources.GetObject("Go_Button.BackgroundImage"), System.Drawing.Image)
         Me.Go_Button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Go_Button.Location = New System.Drawing.Point(229, 342)
+        Me.Go_Button.Location = New System.Drawing.Point(229, 396)
         Me.Go_Button.Name = "Go_Button"
         Me.Go_Button.Size = New System.Drawing.Size(36, 34)
         Me.Go_Button.TabIndex = 28
-        Me.Go_Button.Text = " GO"
+        Me.Go_Button.Text = "○"
         Me.Go_Button.UseVisualStyleBackColor = False
         '
         'No_Button
@@ -210,11 +214,11 @@ Partial Class enterAccountNum
         Me.No_Button.BackColor = System.Drawing.Color.Transparent
         Me.No_Button.BackgroundImage = CType(resources.GetObject("No_Button.BackgroundImage"), System.Drawing.Image)
         Me.No_Button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.No_Button.Location = New System.Drawing.Point(229, 382)
+        Me.No_Button.Location = New System.Drawing.Point(229, 316)
         Me.No_Button.Name = "No_Button"
         Me.No_Button.Size = New System.Drawing.Size(36, 34)
         Me.No_Button.TabIndex = 29
-        Me.No_Button.Text = " NO"
+        Me.No_Button.Text = "✕"
         Me.No_Button.UseVisualStyleBackColor = False
         '
         'Button11
@@ -253,11 +257,50 @@ Partial Class enterAccountNum
         Me.Receipt_Slot.Text = "Receipt Slot"
         Me.Receipt_Slot.UseVisualStyleBackColor = False
         '
+        'Back_Button
+        '
+        Me.Back_Button.BackColor = System.Drawing.Color.Transparent
+        Me.Back_Button.BackgroundImage = CType(resources.GetObject("Back_Button.BackgroundImage"), System.Drawing.Image)
+        Me.Back_Button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Back_Button.Location = New System.Drawing.Point(229, 356)
+        Me.Back_Button.Name = "Back_Button"
+        Me.Back_Button.Size = New System.Drawing.Size(36, 34)
+        Me.Back_Button.TabIndex = 33
+        Me.Back_Button.Text = "←"
+        Me.Back_Button.UseVisualStyleBackColor = False
+        '
+        'Button0
+        '
+        Me.Button0.BackgroundImage = CType(resources.GetObject("Button0.BackgroundImage"), System.Drawing.Image)
+        Me.Button0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button0.Image = CType(resources.GetObject("Button0.Image"), System.Drawing.Image)
+        Me.Button0.Location = New System.Drawing.Point(103, 436)
+        Me.Button0.Name = "Button0"
+        Me.Button0.Size = New System.Drawing.Size(78, 34)
+        Me.Button0.TabIndex = 34
+        Me.Button0.Text = "0"
+        Me.Button0.UseVisualStyleBackColor = True
+        '
+        'ButtonDec
+        '
+        Me.ButtonDec.BackgroundImage = CType(resources.GetObject("ButtonDec.BackgroundImage"), System.Drawing.Image)
+        Me.ButtonDec.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.ButtonDec.Image = CType(resources.GetObject("ButtonDec.Image"), System.Drawing.Image)
+        Me.ButtonDec.Location = New System.Drawing.Point(187, 436)
+        Me.ButtonDec.Name = "ButtonDec"
+        Me.ButtonDec.Size = New System.Drawing.Size(36, 34)
+        Me.ButtonDec.TabIndex = 35
+        Me.ButtonDec.Text = "•"
+        Me.ButtonDec.UseVisualStyleBackColor = True
+        '
         'enterAccountNum
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(484, 461)
+        Me.ClientSize = New System.Drawing.Size(484, 481)
+        Me.Controls.Add(Me.ButtonDec)
+        Me.Controls.Add(Me.Button0)
+        Me.Controls.Add(Me.Back_Button)
         Me.Controls.Add(Me.Receipt_Slot)
         Me.Controls.Add(Me.Swipe_Slot)
         Me.Controls.Add(Me.Button11)
@@ -302,4 +345,7 @@ Partial Class enterAccountNum
     Friend WithEvents Button11 As System.Windows.Forms.Button
     Friend WithEvents Swipe_Slot As System.Windows.Forms.Button
     Friend WithEvents Receipt_Slot As System.Windows.Forms.Button
+    Friend WithEvents Back_Button As System.Windows.Forms.Button
+    Friend WithEvents Button0 As System.Windows.Forms.Button
+    Friend WithEvents ButtonDec As System.Windows.Forms.Button
 End Class
