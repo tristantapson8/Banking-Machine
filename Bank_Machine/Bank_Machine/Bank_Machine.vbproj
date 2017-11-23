@@ -114,6 +114,12 @@
     <Compile Include="enterPin.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="exitNotice.Designer.vb">
+      <DependentUpon>exitNotice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="exitNotice.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="invalidTransfer.Designer.vb">
       <DependentUpon>invalidTransfer.vb</DependentUpon>
     </Compile>
@@ -236,6 +242,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="enterPin.resx">
       <DependentUpon>enterPin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="exitNotice.resx">
+      <DependentUpon>exitNotice.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="invalidTransfer.resx">
       <DependentUpon>invalidTransfer.vb</DependentUpon>
